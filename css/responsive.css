@@ -1,0 +1,3559 @@
+@media only screen and (max-width: 320px) {
+
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 100%;
+	}
+	#leaderinfo {
+		width: 100%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 20px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+        padding-bottom: 0px;
+	}
+	#leader-p {
+		font-size: 16px !important;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 17px;
+	}
+	p.paragrap, #p1 {
+	   text-align: justify !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: block;
+		z-index: 1;
+		width: 100%;
+		height: 230px;
+		margin-top: 27px;
+		overflow-y: scroll;
+	}
+	nav.navbar-menu ul {
+		display: block;
+		line-height: 2;
+		padding: 0px;
+		background: #fff;
+		float: left;
+		width: 100%;
+	}
+	nav.navbar-menu ul li {
+		border-top: 1px solid lightgray;
+	}
+	#bars {
+		display: block;
+		top: 13px;
+	}
+	.strip {
+		height: 70px;
+		overflow: hidden;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul#aboutdropdown {
+		left: 0;
+	}
+	li#visible2 {
+		height: 36px;
+		overflow: hidden;
+		transition: all .3s;
+	}
+	li#visible2.active {
+		height: 110px;
+	}
+	li#visible2 ul {
+		height: 0px;
+
+	}
+	li#visible.active {
+		height: 148px;
+	}
+	li#visible {
+	    height: 36px;
+	    position: relative;
+	    overflow: hidden;
+	    transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul li ul {
+	    position: relative;
+	    top: 0; 
+	    left: 0;
+	    display: block;
+	    border: none;
+	    visibility: visible;
+	    box-shadow: none;
+	     border-bottom: 1px solid #dedede; 
+	}
+	ul li ul li {
+    	padding: 0px 0;
+    	border: none;
+	}
+	ul li ul li a {
+		/*font-size: 16px;*/
+		/*color: lightgray;*/
+		margin-left: 20px;
+	}
+	/*.fix-nav {
+		width: 100%;
+		height: 70px;
+	}*/
+	#strip.active {
+		height: 305px;
+		overflow: hidden;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 50%;
+	}
+	.construction-logo img {
+		top: -2px;
+		left: -36px;
+		width: 161% !important;
+	}
+/*image slider */
+	.carousel {
+		height: 182px;
+	}
+	.carousel-control{
+		bottom: 1px;
+	}
+/*Why outsource section start*/
+#source-box {
+    padding: 30px 17px;
+}
+#source-box h2{
+    font-size: 27px;
+}
+
+/*Why outsource section end*/
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+	}
+	.profile-box-img {
+		width: 100%;
+		padding: 10px;
+	}
+	.profile-box-img img {
+		border-radius: 140px;
+	}
+	.profile-box-body {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 68% !important;
+	}
+/*office serving list start*/
+	#office_list_row {
+		padding: 0 20px;
+	}
+	.office_list_container h2 {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+/*office serving list end*/
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 20px;
+		padding: 30px 0;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 100%;
+		margin: 0;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 100%;
+	}
+	#input1, #input2 {
+		width: 100%;
+	}
+	#msg {
+		font-size: 20px;
+		padding: 0;
+	}
+/*Footer section*/
+	.footer {
+		padding: 0;
+	}
+	.footer-box {
+		margin-top: 25px;
+	}
+	.footer-bottom {
+		padding: 5px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 14px;
+	}
+/*background investigation*/
+	.OutSource, .otherServices {
+		padding: 0 20px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 38px;
+		margin: 0;
+		padding: 0;
+	}
+	.OutSource h1 {
+		font-size: 24px;
+		line-height: 180px;
+		margin: 0 !important;
+	}
+	.nav-right {
+		right: 33px;
+		line-height: 240px;
+		top: 10px;
+	}
+	.nav-right p {
+    	font-size: 14px;
+    	color: #6d6d6d;
+	}
+	.nav-right p a {
+		font-size: 19px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 20px;
+   	 margin-bottom: 10px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 35px;
+	}
+/*background investigation end*/
+}
+/*Responsive 360 screen*/
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 100%;
+	}
+	#leaderinfo {
+		width: 100%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 20px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+        padding-bottom: 0px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 22px;
+	}
+	p.paragrap, #p1 {
+	   text-align: justify !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: block;
+		z-index: 1;
+		width: 100%;
+		height: 230px;
+		margin-top: 27px;
+		overflow-y: scroll;
+	}
+	nav.navbar-menu ul {
+		display: block;
+		line-height: 2;
+		padding: 0px;
+		background: #fff;
+		float: left;
+		width: 100%;
+	}
+	nav.navbar-menu ul li {
+		border-top: 1px solid lightgray;
+	}
+	#bars {
+		display: block;
+		top: 13px;
+	}
+	.strip {
+		height: 70px;
+		overflow: hidden;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul#aboutdropdown {
+		left: 0;
+	}
+	li#visible2 {
+		height: 36px;
+		overflow: hidden;
+		transition: all .3s;
+	}
+	li#visible2.active {
+		height: 110px;
+	}
+	li#visible2 ul {
+		height: 0px;
+
+	}
+	li#visible.active {
+		height: 148px;
+	}
+	li#visible {
+	    height: 36px;
+	    position: relative;
+	    overflow: hidden;
+	    transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul li ul {
+	    position: relative;
+	    top: 0; 
+	    left: 0;
+	    display: block;
+	    border: none;
+	    visibility: visible;
+	    box-shadow: none;
+	     border-bottom: 1px solid #dedede; 
+	}
+	ul li ul li {
+    	padding: 0px 0;
+    	border: none;
+	}
+	/*.fix-nav {
+		width: 100%;
+		height: 70px;
+	}*/
+	#strip.active {
+		height: 305px;
+		overflow: hidden;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 50%;
+	}
+	.construction-logo img {
+		top: -6px;
+		left: -40px;
+		width: 161% !important;
+	}
+/*image slider */
+	.carousel {
+		height: 182px;
+	}
+	.carousel-control{
+		bottom: 1px;
+	}
+
+/*Why outsource section start*/
+#source-box {
+    padding: 30px 17px;
+}
+#source-box h2{
+    font-size: 30px;
+}
+
+/*Why outsource section end*/
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+	}
+	.profile-box-img {
+		width: 80%;
+		padding: 10px;
+		margin: 0 30px;	
+	}
+	.profile-box-img img {
+		border-radius: 180px;
+	}
+	.profile-box-body {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 68% !important;
+	}
+/*office serving list start*/
+	#office_list_row {
+		padding: 0 20px;
+	}
+	.office_list_container h2 {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+/*office serving list end*/
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 20px;
+		padding: 30px 0;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 100%;
+		margin: 0;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 100%;
+	}
+	#input1, #input2 {
+		width: 100%;
+	}
+	#msg {
+		font-size: 22px;
+		padding: 0;
+	}
+/*Footer section*/
+	.footer {
+		padding: 0;
+	}
+	.footer-box {
+		margin-top: 25px;
+	}
+	.footer-bottom {
+		padding: 5px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 14px;
+	}
+
+/*background investigation*/
+	#msg {
+		font-size: 22px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 20px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 43px;
+		margin: 0;
+		padding: 0;
+	}
+	.OutSource h1 {
+		font-size: 27.5px;
+		line-height: 180px;
+		margin: 0;
+	}
+	.nav-right {
+		right: 33px;
+		line-height: 240px;
+		top: 10px;
+	}
+	.nav-right p {
+    	font-size: 14px;
+    	color: #6d6d6d;
+	}
+	.nav-right p a {
+		font-size: 19px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 20px;
+   	 margin-bottom: 10px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 40px;
+		margin: 0;
+   		padding: 0;
+	}
+/*background investigation end*/
+}
+
+/*screen size 361-380*/
+
+@media only screen and (min-width: 361px) and (max-width: 380px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 100%;
+	}
+	#leaderinfo {
+		width: 100%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 20px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+        padding-bottom: 0px;
+	}
+	#leader-container {
+		padding: 0 20px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 22px;
+	}
+	p.paragrap, #p1 {
+	   text-align: justify !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: block;
+		z-index: 1;
+		width: 100%;
+		height: 230px;
+		margin-top: 27px;
+		overflow-y: scroll;
+	}
+	nav.navbar-menu ul {
+		display: block;
+		line-height: 2;
+		padding: 0px;
+		background: #fff;
+		float: left;
+		width: 100%;
+	}
+	nav.navbar-menu ul li {
+		border-top: 1px solid lightgray;
+	}
+	#bars {
+		display: block;
+		top: 13px;
+	}
+	.strip {
+		height: 70px;
+		overflow: hidden;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul#aboutdropdown {
+		left: 0;
+	}
+	li#visible2 {
+		height: 36px;
+		overflow: hidden;
+		transition: all .3s;
+	}
+	li#visible2.active {
+		height: 110px;
+	}
+	li#visible2 ul {
+		height: 0px;
+
+	}
+	li#visible.active {
+		height: 148px;
+	}
+	li#visible {
+	    height: 36px;
+	    position: relative;
+	    overflow: hidden;
+	    transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul li ul {
+	    position: relative;
+	    top: 0; 
+	    left: 0;
+	    display: block;
+	    border: none;
+	    visibility: visible;
+	    box-shadow: none;
+	     border-bottom: 1px solid #dedede; 
+	}
+	ul li ul li {
+    	padding: 0px 0;
+    	border: none;
+	}
+	#strip.active {
+		height: 305px;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 50%;
+	}
+	.construction-logo img {
+		top: -8px;
+		left: -43px;
+		width: 161% !important;
+	}
+/*image slider */
+	.carousel {
+		height: 182px;
+	}
+	.carousel-control{
+		bottom: 1px;
+	}
+
+/*Why outsource section start*/
+#source-box {
+    padding: 30px 17px;
+}
+#source-box h2{
+    font-size: 32px;
+}
+
+/*Why outsource section end*/
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+	}
+	.profile-box-img {
+		width: 100%;
+		padding: 10px;
+	}
+	.profile-box-img img {
+		border-radius: 140px;
+	}
+	.profile-box-body {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 68% !important;
+	}
+/*office serving list start*/
+	#office_list_row {
+		padding: 0 20px;
+	}
+	.office_list_container h2 {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+/*office serving list end*/
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 20px;
+		padding: 30px 0;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 100%;
+		margin: 0;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 100%;
+	}
+	#input1, #input2 {
+		width: 100%;
+	}
+/*Footer section*/
+	.footer {
+		padding: 0;
+	}
+	.footer-box {
+		margin-top: 25px;
+	}
+	.footer-bottom {
+		padding: 5px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 14px;
+	}
+
+/*background investigation*/
+	#msg {
+		font-size: 22px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 20px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 30px;
+		margin: 0;
+		padding: 0;
+	}
+	.OutSource h1 {
+		font-size: 25px;
+		line-height: 180px;
+		margin: 0 !important;
+	}
+	.nav-right {
+		right: 25px;
+		line-height: 240px;
+		top: 10px;
+	}
+	.nav-right p {
+    	font-size: 14px;
+    	color: #6d6d6d;
+	}
+	.nav-right p a {
+		font-size: 19px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 20px;
+   	 margin-bottom: 10px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 30px;
+		padding: 0;
+	}
+/*background investigation end*/
+}
+
+/*screen size 381- 420*/
+
+@media only screen and (min-width: 381px) and (max-width: 420px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 100%;
+	}
+	#leaderinfo {
+		width: 100%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 20px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+        padding-bottom: 0px;
+	}
+	#leader-container {
+		padding: 0 20px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 22px;
+	}
+	p.paragrap, #p1 {
+	   text-align: justify !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: block;
+		z-index: 1;
+		width: 100%;
+		height: 230px;
+		margin-top: 27px;
+		overflow-y: scroll;
+	}
+	nav.navbar-menu ul {
+		display: block;
+		line-height: 2;
+		padding: 0px;
+		background: #fff;
+		float: left;
+		width: 100%;
+	}
+	nav.navbar-menu ul li {
+		border-top: 1px solid lightgray;
+	}
+	#bars {
+		display: block;
+		top: 13px;
+	}
+	.strip {
+		height: 70px;
+		overflow: hidden;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul#aboutdropdown {
+		left: 0;
+	}
+	li#visible2 {
+		height: 36px;
+		overflow: hidden;
+		transition: all .3s;
+	}
+	li#visible2.active {
+		height: 110px;
+	}
+	li#visible2 ul {
+		height: 0px;
+	}
+	li#visible.active {
+		height: 148px;
+	}
+	li#visible {
+	    height: 36px;
+	    position: relative;
+	    overflow: hidden;
+	    transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul li ul {
+	    position: relative;
+	    top: 0; 
+	    left: 0;
+	    display: block;
+	    border: none;
+	    visibility: visible;
+	    box-shadow: none;
+	     border-bottom: 1px solid #dedede; 
+	}
+	ul li ul li {
+    	padding: 0px 0;
+    	border: none;
+	}
+	#strip.active {
+		height: 305px;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 50%;
+	}
+	.construction-logo img {
+	    top: -7px;
+	    left: -41px;
+	    width: 140% !important;
+	}
+/*image slider */
+	.carousel {
+		height: 182px;
+	}
+	.carousel-control{
+		bottom: 1px;
+	}
+
+/*Why outsource section start*/
+#source-box {
+    padding: 30px 25px;
+}
+#source-box h2{
+    font-size: 32px;
+}
+
+/*Why outsource section end*/
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+	}
+	.profile-box-img {
+		width: 80%;
+		padding: 10px;
+		margin: 0 40px;
+	}
+	.profile-box-img img {
+		border-radius: 200px;
+	}
+	.profile-box-body {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 68% !important;
+	}
+/*office serving list start*/
+	#office_list_row {
+		padding: 0 20px;
+	}
+	.office_list_container h2 {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+/*office serving list end*/
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 20px;
+		padding: 30px 0;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 100%;
+		margin: 0;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 100%;
+	}
+	#input1, #input2 {
+		width: 100%;
+	}
+/*Footer section*/
+	.footer {
+		padding: 0;
+	}
+	.footer-box {
+		margin-top: 25px;
+	}
+	.footer-bottom {
+		padding: 5px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 14px;
+	}
+/*background investigation*/
+	#msg {
+		font-size: 22px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 20px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 30px;
+		margin: 0;
+		padding: 0;
+	}
+	.OutSource h1 {
+		font-size: 25px;
+		line-height: 180px;
+		margin: 0 !important;
+		padding: 0;
+	}
+	.nav-right {
+		right: 25px;
+		line-height: 240px;
+		top: 10px;
+	}
+	.nav-right p {
+    	font-size: 14px;
+    	color: #6d6d6d;
+	}
+	.nav-right p a {
+		font-size: 19px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 20px;
+   	 margin-bottom: 10px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 30px;
+	}
+/*background investigation end*/
+}
+
+/*screen size 421-461*/
+@media only screen and (min-width: 421px) and (max-width: 480px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 100%;
+	}
+	#leaderinfo {
+		width: 100%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 20px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+        padding-bottom: 0px;
+	}
+	#leader-container {
+		padding: 0 20px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 30px;
+	}
+	p.paragrap, #p1 {
+	   text-align: justify !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: block;
+		z-index: 1;
+		width: 100%;
+		height: 230px;
+		margin-top: 27px;
+		overflow-y: scroll;
+	}
+	nav.navbar-menu ul {
+		display: block;
+		line-height: 2;
+		padding: 0px;
+		background: #fff;
+		float: left;
+		width: 100%;
+	}
+	nav.navbar-menu ul li {
+		border-top: 1px solid lightgray;
+	}
+	#bars {
+		display: block;
+		top: 13px;
+	}
+	.strip {
+		height: 70px;
+		overflow: hidden;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul#aboutdropdown {
+		left: 0;
+	}
+	li#visible2 {
+		height: 36px;
+		overflow: hidden;
+		transition: all .3s;
+	}
+	li#visible2.active {
+		height: 110px;
+	}
+	li#visible2 ul {
+		height: 0px;
+	}
+	li#visible.active {
+		height: 148px;
+	}
+	li#visible {
+	    height: 36px;
+	    position: relative;
+	    overflow: hidden;
+	    transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul li ul {
+	    position: relative;
+	    top: 0; 
+	    left: 0;
+	    display: block;
+	    border: none;
+	    visibility: visible;
+	    box-shadow: none;
+	     border-bottom: 1px solid #dedede; 
+	}
+	ul li ul li {
+    	padding: 0px 0;
+    	border: none;
+	}
+	#strip.active {
+		height: 305px;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 50%;
+	}
+	.construction-logo img {
+		top: -9px;
+		left: -48px;
+	}
+/*image slider */
+	.carousel {
+		height: 182px;
+	}
+	.carousel-control{
+		bottom: 1px;
+	}
+
+/*Why outsource section start*/
+#source-box {
+    padding: 30px 25px;
+}
+#source-box h2{
+    font-size: 32px;
+}
+
+/*Why outsource section end*/
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+	}
+	.profile-box-img {
+		width: 100%;
+		padding: 10px;
+	}
+	.profile-box-img img {
+		border-radius: 140px;
+	}
+	.profile-box-body {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 68% !important;
+	}
+/*office serving list start*/
+	#office_list_row {
+		padding: 0 20px;
+	}
+	.office_list_container h2 {
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+/*office serving list end*/
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 20px;
+		padding: 30px 0;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 100%;
+		margin: 0;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 100%;
+	}
+	#input1, #input2 {
+		width: 100%;
+	}
+/*Footer section*/
+	.footer {
+		padding: 0;
+	}
+	.footer-box {
+		margin-top: 25px;
+	}
+	.footer-bottom {
+		padding: 5px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 14px;
+	}
+/*background investigation*/
+	#msg {
+		font-size: 28px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 20px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 30px;
+		margin: 0;
+		line-height: 200px;
+		padding: 0;
+	}
+	.OutSource h1 {
+		font-size: 25px;
+		line-height: 180px;
+		margin: 0;
+	}
+	.nav-right:nth-child(2) {
+		line-height: 240px;
+	}
+	.nav-right {
+		right: 25px;
+		line-height: 190px;
+		top: 10px;
+	}
+	.nav-right p {
+    	font-size: 18px;
+    	color: #6d6d6d;
+	}
+	.nav-right p a {
+		font-size: 19px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 30px;
+   	 margin-bottom: 10px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 28px;
+		line-height: 200px;
+		margin: 0;
+		padding: 0;
+	}
+/*background investigation end*/
+}
+
+/*screen size 481-560*/
+@media only screen and (min-width: 481px) and (max-width: 560px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 100%;
+	}
+	#leaderinfo {
+		width: 100%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 20px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+        padding-bottom: 0px;
+	}
+	#leader-container {
+		padding: 0 30px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 30px;
+	}
+	p.paragrap, #p1 {
+	   text-align: justify !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: block;
+		z-index: 1;
+		width: 100%;
+		height: 230px;
+		margin-top: 45px;
+		overflow-y: scroll;
+	}
+	nav.navbar-menu ul {
+		display: block;
+		line-height: 2;
+		padding: 0px;
+		background: #fff;
+		float: left;
+		width: 100%;
+	}
+	nav.navbar-menu ul li {
+		border-top: 1px solid lightgray;
+	}
+	#bars {
+		display: block;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+	}
+	.strip {
+		height: 90px;
+		overflow: hidden;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul#aboutdropdown {
+		left: 0;
+	}
+	li#visible2 {
+		height: 36px;
+		overflow: hidden;
+		transition: all .3s;
+	}
+	li#visible2.active {
+		height: 110px;
+	}
+	li#visible2 ul {
+		height: 0px;
+	}
+	li#visible.active {
+		height: 148px;
+	}
+	li#visible {
+	    height: 36px;
+	    position: relative;
+	    overflow: hidden;
+	    transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul li ul {
+	    position: relative;
+	    top: 0; 
+	    left: 0;
+	    display: block;
+	    border: none;
+	    visibility: visible;
+	    box-shadow: none;
+	     border-bottom: 1px solid #dedede; 
+	}
+	ul li ul li {
+    	padding: 0px 0;
+    	border: none;
+	}
+	#strip.active {
+		height: 320px;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 50%;
+	}
+	.construction-logo img {
+		top: -6px;
+		left: -53px;
+	}
+/*image slider */
+	.carousel {
+		height: 322px;
+	}
+	.carousel-control{
+		bottom: 1px;
+	}
+
+/*Why outsource section start*/
+#source-box {
+    padding: 30px 40px;
+}
+#source-box h2{
+    font-size: 35px;
+}
+
+/*Why outsource section end*/
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+	}
+	.profile-box-img {
+		width: 80%;
+		padding: 10px;
+		margin: 0 50px;
+	}
+	.profile-box-img img {
+		border-radius: 80%;
+	}
+	.profile-box-body {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 50% !important;
+		margin-left: 182px;
+	}
+/*office serving list start*/
+	#office_list_row {
+		padding: 0 35px;
+		padding-bottom: 20px;
+	}
+	.office_list_container h2 {
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+/*office serving list end*/
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 30px;
+		padding: 60px;
+		line-height: 1.5;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 100%;
+		margin: 0;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 80%;
+	}
+	#input1, #input2 {
+		width: 100%;
+	}
+/*Footer section*/
+	.footer {
+		padding: 0;
+	}
+	.footer-box {
+		margin-top: 25px;
+	}
+	.footer-bottom {
+		padding: 15px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 14px;
+	}
+/*background investigation*/
+	#msg {
+		font-size: 28px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 40px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 30px;
+		margin: 0;
+		line-height: 200px;
+		padding: 0;
+	}
+	.OutSource h1 {
+		font-size: 25px;
+		line-height: 170px;
+		margin: 0;
+	}
+	/*.nav-right:nth-child(2) {
+		line-height: 240px;
+	}*/
+	.nav-right {
+		right: 40px;
+		line-height: 200px;
+		top: 10px;
+	}
+	.nav-right p {
+    	font-size: 16px;
+    	color: #6d6d6d;
+	}
+	.nav-right p a {
+		font-size: 19px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 40px;
+   	 margin-bottom: 20px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 28px;
+		line-height: 200px;
+		margin: 0;
+		padding: 0;
+	}
+/*background investigation end*/
+}
+
+/*screen size 561-600*/
+@media only screen and (min-width: 561px) and (max-width: 600px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 100%;
+	}
+	#leaderinfo {
+		width: 100%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 20px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+        padding-bottom: 0px;
+	}
+	#leader-container {
+		padding: 0 30px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 35px;
+	}
+	p.paragrap, #p1 {
+	   text-align: justify !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: block;
+		z-index: 1;
+		width: 100%;
+		height: 230px;
+		margin-top: 45px;
+		overflow-y: scroll;
+	}
+	nav.navbar-menu ul {
+		display: block;
+		line-height: 2;
+		padding: 0px;
+		background: #fff;
+		float: left;
+		width: 100%;
+	}
+	nav.navbar-menu ul li {
+		border-top: 1px solid lightgray;
+	}
+	#bars {
+		display: block;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+	}
+	.strip {
+		height: 90px;
+		overflow: hidden;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul#aboutdropdown {
+		left: 0;
+	}
+	li#visible2 {
+		height: 36px;
+		overflow: hidden;
+		transition: all .3s;
+	}
+	li#visible2.active {
+		height: 110px;
+	}
+	li#visible2 ul {
+		height: 0px;
+	}
+	li#visible.active {
+		height: 148px;
+	}
+	li#visible {
+	    height: 36px;
+	    position: relative;
+	    overflow: hidden;
+	    transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul li ul {
+	    position: relative;
+	    top: 0; 
+	    left: 0;
+	    display: block;
+	    border: none;
+	    visibility: visible;
+	    box-shadow: none;
+	     border-bottom: 1px solid #dedede; 
+	}
+	ul li ul li {
+    	padding: 0px 0;
+    	border: none;
+	}
+	#strip.active {
+		height: 320px;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 50%;
+	}
+	.construction-logo img {
+		top: -10px;
+		left: -60px;
+	}
+/*image slider */
+	.carousel {
+		height: 322px;
+	}
+	.carousel-control{
+		bottom: 1px;
+	}
+
+/*Why outsource section start*/
+#source-box {
+    padding: 30px 40px;
+}
+#source-box h2{
+    font-size: 35px;
+}
+
+/*Why outsource section end*/
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+	}
+	.profile-box-img {
+		width: 50%;
+		padding: 10px;
+		margin: 0 140px;
+
+	}
+	.profile-box-img img {
+		border-radius: 220px;
+	}
+	.profile-box-body {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 50% !important;
+		margin-left: 182px;
+	}
+/*office serving list start*/
+	#office_list_row {
+		padding: 0 35px;
+		padding-bottom: 20px;
+	}
+	.office_list_container h2 {
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+/*office serving list end*/
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 30px;
+		padding: 60px;
+		line-height: 1.5;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 100%;
+		margin: 0;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 80%;
+	}
+	#input1, #input2 {
+		width: 100%;
+	}
+/*Footer section*/
+	.footer {
+		padding: 0;
+	}
+	.footer-box {
+		margin-top: 25px;
+	}
+	.footer-bottom {
+		padding: 15px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 14px;
+	}
+/*background investigation*/
+	#msg {
+		font-size: 28px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 40px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 30px;
+		margin: 0;
+		line-height: 200px;
+		padding: 0;
+	}
+	.OutSource h1 {
+		font-size: 25px;
+		line-height: 195px;
+		margin: 0 !important;
+		padding: 0;
+	}
+	.nav-right {
+		right: 40px;
+		line-height: 200px;
+	}
+	.nav-right p {
+    	font-size: 14px;
+    	color: #6d6d6d;
+    	margin: 0;
+	}
+	.nav-right p a {
+		font-size: 19px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 40px;
+   	 margin-bottom: 20px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 28px;
+		line-height: 200px;
+	}
+/*background investigation end*/
+}
+
+
+/*screen size 601-768*/
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 30%;
+	}
+	#leaderinfo {
+		width: 70%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 35px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+	}
+	#leader-container {
+		padding: 0 30px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 35px;
+	}
+	p.paragrap, #p1 {
+	   text-align: justify !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: block;
+		z-index: 1;
+		width: 100%;
+		height: 230px;
+		margin-top: 45px;
+		overflow-y: scroll;
+	}
+	nav.navbar-menu ul {
+		display: block;
+		line-height: 2;
+		padding: 0px;
+		background: #fff;
+		float: left;
+		width: 100%;
+	}
+	nav.navbar-menu ul li {
+		border-top: 1px solid lightgray;
+	}
+	#bars {
+		display: block;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+	}
+	.strip {
+		height: 90px;
+		overflow: hidden;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul#aboutdropdown {
+		left: 0;
+	}
+	li#visible2 {
+		height: 36px;
+		overflow: hidden;
+		transition: all .3s;
+	}
+	li#visible2.active {
+		height: 110px;
+	}
+	li#visible2 ul {
+		height: 0px;
+	}
+	li#visible.active {
+		height: 148px;
+	}
+	li#visible {
+	    height: 36px;
+	    position: relative;
+	    overflow: hidden;
+	    transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul li ul {
+	    position: relative;
+	    top: 0; 
+	    left: 0;
+	    display: block;
+	    border: none;
+	    visibility: visible;
+	    box-shadow: none;
+	     border-bottom: 1px solid #dedede; 
+	}
+	ul li ul li {
+    	padding: 0px 0;
+    	border: none;
+	}
+	#strip.active {
+		height: 320px;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 37%;
+	}
+	.construction-logo img {
+		top: -7px;
+		left: -55px;
+	}
+/*image slider */
+	.carousel {
+		height: 380px;
+	}
+	.carousel-control{
+		bottom: 45px;
+	}
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+		padding-bottom: 10px;
+	}
+	.profile-box-img {
+		width: 50%;
+		padding: 39px;
+		margin: 0 185px;
+	}
+
+	.profile-box-img img {
+		border-radius: 230px;
+	}
+	.profile-box-body {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+		padding-top: 3%;
+		line-height: 2;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 25% !important;
+		margin-left: 120px;
+	}
+	.card-body {
+		width: 222px;
+	}
+	div#card1 {
+		margin-right: 50px;
+	}
+/*office serving list start*/
+	#office_list_row {
+		padding: 0 40px;
+		padding-bottom: 20px;
+	}
+	.office_list_container h2 {
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+/*office serving list end*/
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 30px;
+		padding: 60px;
+		line-height: 1.5;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 50%;
+		margin: 0;
+		float: left;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 100%;
+	}
+	#input1, #input2 {
+		width: 47%;
+	}
+/*Footer section*/
+	.footer {
+		padding: 8px;
+		padding-bottom: 25px;
+	}
+	.footer-box {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		/*width: 47%;
+		float: left;*/
+		/*display: inline-block;*/
+	}
+	.footer-bottom {
+		padding: 25px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 18px;
+		margin-top: 5px;
+	}
+	.col-lg-3 {
+		width: 50%;
+		float: left;
+		height: 270px;
+	}
+/*background investigation*/
+	#msg {
+		font-size: 28px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 40px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 30px;
+		margin: 0;
+		line-height: 200px;
+		padding: 0;
+	}
+	.OutSource h1 {
+		font-size: 25px;
+		line-height: 195px;
+		margin: 0 !important;
+		padding: 0;
+	}
+	.nav-right {
+		right: 40px;
+		line-height: 200px;
+	}
+	.nav-right p {
+    	font-size: 14px;
+    	color: #6d6d6d;
+    	margin: 0;
+	}
+	.nav-right p a {
+		font-size: 19px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 40px;
+   	 margin-bottom: 20px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 28px;
+		line-height: 200px;
+	}
+/*background investigation end*/
+}
+
+/*screen size 601-768*/
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 30%;
+	}
+	#leaderinfo {
+		width: 70%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 70px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+	}
+	#leader-container {
+		padding: 0 50px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 35px;
+	}
+	p.paragrap, #p1 {
+	   text-align: justify !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: block;
+		z-index: 1;
+		width: 100%;
+		height: 230px;
+		margin-top: 45px;
+		overflow-y: scroll;
+	}
+	nav.navbar-menu ul {
+		display: block;
+		line-height: 2;
+		padding: 0px;
+		background: #fff;
+		float: left;
+		width: 100%;
+	}
+	nav.navbar-menu ul li {
+		border-top: 1px solid lightgray;
+	}
+	#bars {
+		display: block;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+	}
+	.strip {
+		height: 90px;
+		overflow: hidden;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul#aboutdropdown {
+		left: 0;
+	}
+	li#visible2 {
+		height: 36px;
+		overflow: hidden;
+		transition: all .3s;
+	}
+	li#visible2.active {
+		height: 110px;
+	}
+	li#visible2 ul {
+		height: 0px;
+	}
+	li#visible.active {
+		height: 148px;
+	}
+	li#visible {
+	    height: 36px;
+	    position: relative;
+	    overflow: hidden;
+	    transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	ul li ul {
+	    position: relative;
+	    top: 0; 
+	    left: 0;
+	    display: block;
+	    border: none;
+	    visibility: visible;
+	    box-shadow: none;
+	     border-bottom: 1px solid #dedede; 
+	}
+	ul li ul li {
+    	padding: 0px 0;
+    	border: none;
+	}
+	#strip.active {
+		height: 320px;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 29%;
+	}
+	.construction-logo img {
+		top: -8px;
+		left: -60px;
+	}
+/*image slider */
+	.carousel {
+		height: 380px;
+	}
+	.carousel-control{
+		bottom: 45px;
+	}
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+		padding-bottom: 10px;
+	}
+	.profile-box-img {
+		width: 35%;
+		/*padding: 10px;*/
+		/*margin-left: 60px;*/
+		padding: 39px;
+		margin-left: -15px;
+	}
+	.profile-box-img img {
+		border-radius: 230px;
+	}
+	.profile-box-body {
+		width: 65%;
+		margin: 0;
+		padding: 10px;
+		padding-top: 3%;
+		line-height: 2;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 25% !important;
+		margin-left: 155px;
+	}
+	.card-body {
+		width: 300px;
+	}
+	div#card1 {
+		margin-right: 50px;
+	}
+/*office serving list start*/
+	#office_list_row {
+		padding: 0 40px;
+		padding-bottom: 20px;
+	}
+	.office_list_container h2 {
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+/*office serving list end*/
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 40px;
+		padding: 100px;
+		line-height: 1.5;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 50%;
+		margin: 0;
+		float: left;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 92%;
+	}
+	#input1, #input2 {
+		width: 47%;
+	}
+/*Footer section*/
+	.footer {
+		padding: 13px;
+		padding-bottom: 30px;
+	}
+	.footer-box {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		/*width: 47%;
+		float: left;*/
+		/*display: inline-block;*/
+	}
+	.footer-bottom {
+		padding: 25px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 18px;
+		margin-top: 5px;
+	}
+	.col-lg-3 {
+		width: 43%;
+		float: left;
+		height: 270px;
+	}
+	div#col-1, #col-3 {
+		margin-right: 120px;
+	}
+/*background investigation*/
+	#msg {
+		font-size: 28px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 60px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 30px;
+		margin: 0;
+		line-height: 200px;
+		padding: 0;
+	}
+	.OutSource h1 {
+		font-size: 25px;
+		line-height: 195px;
+		margin: 0;
+	}
+	.nav-right {
+		right: 60px;
+		line-height: 200px;
+	}
+	.nav-right p {
+    	font-size: 18px;
+    	color: #6d6d6d;
+    	margin: 0;
+	}
+	.nav-right p a {
+		font-size: 19px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 100px;
+   	 margin-bottom: 30px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 28px;
+		line-height: 200px;
+		margin: 0;
+		padding: 0;
+	}
+/*background investigation end*/
+}
+
+/*screen size 993-1024*/
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 30%;
+	}
+	#leaderinfo {
+		width: 70%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 70px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+	}
+	#leader-container {
+		padding: 0 50px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 35px;
+	}
+	p.paragrap, #p1 {
+	   text-align: center; !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: flex;
+		z-index: 1;
+		height: 90px;
+	}
+	nav.navbar-menu ul {
+		display: ;
+		padding: 0px;
+		float: right;
+	}
+
+	ul li a {
+		font-size: 16px;
+	}
+	ul li {
+		padding: 0 14px;
+	}
+	nav.navbar-menu ul li {
+	}
+	#bars {
+		display: none;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+	}
+	.strip {
+		height: 90px;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 25%;
+	}
+	.construction-logo img {
+		top: -2px;
+		left: -43px;
+	}
+/*image slider */
+	.carousel {
+		height: 380px;
+	}
+	.carousel-control{
+		bottom: 45px;
+	}
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+		padding-bottom: 10px;
+	}
+	.profile-box-img {
+		width: 35%;
+		padding: 39px;
+		margin-left: 0px;
+	}
+	.profile-box-img img {
+		border-radius: 140px;
+	}
+	.profile-box-body {
+		width: 65%;
+		margin: 0;
+		padding: 10px;
+		padding-top: 3%;
+		line-height: 2;
+		padding-right: 50px;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 25% !important;
+		margin-left: 155px;
+	}
+	.card-body {
+		width: 300px;
+	}
+	div#card1 {
+		margin-right: 10px;
+	}
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 40px;
+		padding: 100px;
+		line-height: 1.5;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 33.3%;
+		margin: 0;
+		float: left;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 92%;
+	}
+	#input1, #input2 {
+		width: 47.1%;
+	}
+/*Footer section*/
+	.footer {
+		padding: 28px;
+	}
+	.footer-box {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.footer-bottom {
+		padding: 25px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 25px;
+		margin-top: 5px;
+	}
+	.col-lg-3 {
+		width: 43%;
+		float: left;
+		height: 270px;
+	}
+	div#col-1, #col-3 {
+		margin-right: 120px;
+	}
+/*background investigation*/
+	#msg {
+		font-size: 28px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 60px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 30px;
+		margin: 0;
+		line-height: 200px;
+	}
+	.OutSource h1 {
+		font-size: 25px;
+		line-height: 195px;
+		margin: 0;
+	}
+	.nav-right {
+		right: 60px;
+		line-height: 200px;
+	}
+	.nav-right p {
+    	font-size: 18px;
+    	color: #6d6d6d;
+    	margin: 0;
+	}
+	.nav-right p a {
+		font-size: 19px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 100px;
+   	 margin-bottom: 30px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 28px;
+		line-height: 200px;
+		margin: 0;
+		padding: 0;
+	}
+/*background investigation end*/
+}
+
+/*screen size 1025-*/
+@media only screen and (min-width: 1025px) and (max-width: 1103px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 25%;
+		margin-left: 15px;
+	}
+	#leaderinfo {
+		width: 70%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 70px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+	}
+	#leader-container {
+		padding: 0 50px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 35px;
+	}
+	p.paragrap, #p1 {
+	   text-align: center; !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: flex;
+		z-index: 1;
+		height: 90px;
+	}
+	nav.navbar-menu ul {
+		display: ;
+		padding: 0px;
+		float: right;
+	}
+	ul li a {
+		font-size: 16px;
+	}
+	ul li {
+		padding: 0 14px;
+	}
+	nav.navbar-menu ul li {
+		/*border-top: 1px solid lightgray;*/
+	}
+	#bars {
+		display: none;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+	}
+	.strip {
+		height: 90px;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 25%;
+	}
+	.construction-logo img {
+		top: -5px;
+		left: -44px;
+	}
+/*image slider */
+	.carousel {
+		height: 380px;
+	}
+	.carousel-control{
+		bottom: 45px;
+	}
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+		padding-bottom: 10px;
+	}
+	.profile-box-img {
+		width: 35%;
+		padding: 39px;
+		margin-left: 0px;
+	}
+	.profile-box-img img {
+		border-radius: 140px;
+	}
+	.profile-box-body {
+		width: 65%;
+		margin: 0;
+		padding: 10px;
+		padding-top: 3%;
+		line-height: 2;
+		padding-right: 50px;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 25% !important;
+		margin-left: 155px;
+	}
+	.card-body {
+		width: 300px;
+	}
+	div#card1 {
+		margin-right: 10px;
+	}
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 40px;
+		padding: 100px;
+		line-height: 1.5;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 33.3%;
+		margin: 0;
+		float: left;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 92%;
+	}
+	#input1, #input2 {
+		width: 47.1%;
+	}
+/*Footer section*/
+	.footer {
+		padding: 28px;
+	}
+	.footer-box {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.footer-bottom {
+		padding: 15px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 20px;
+		margin-top: 5px;
+	}
+	.col-lg-3 {
+		width: 44%;
+		float: left;
+		height: 270px;
+	}
+	div#col-1, #col-3 {
+		margin-right: 120px;
+	}
+/*background investigation*/
+	#msg {
+		font-size: 28px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 60px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 30px;
+		margin: 0;
+		line-height: 200px;
+	}
+	.OutSource h1 {
+		font-size: 25px;
+		line-height: 195px;
+		margin: 0;
+	}
+	.nav-right {
+		right: 80px;
+		line-height: 200px;
+	}
+	.nav-right p {
+    	font-size: 20px;
+    	color: #6d6d6d;
+    	margin: 0;
+	}
+	.nav-right p a {
+		font-size: 25px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 100px;
+   	 margin-bottom: 30px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 28px;
+		line-height: 200px;
+		margin: 0;
+		padding: 0;
+	}
+/*background investigation end*/
+}
+
+
+/*screen size 1104-1140*/
+@media only screen and (min-width: 1104px) and (max-width: 1140px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 25%;
+		margin-left: 15px;
+	}
+	#leaderinfo {
+		width: 70%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 70px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+	}
+	#leader-container {
+		padding: 0 50px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 35px;
+	}
+	p.paragrap, #p1 {
+	   text-align: center !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: flex;
+		z-index: 1;
+		height: 90px;
+	}
+	nav.navbar-menu ul {
+		display: ;
+		padding: 0px;
+		float: right;
+	}
+	ul li a {
+		font-size: 16px;
+	}
+	ul li {
+		padding: 0 14px;
+	}
+	nav.navbar-menu ul li {
+	}
+	#bars {
+		display: none;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+	}
+	.strip {
+		height: 90px;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 25%;
+	}
+	.construction-logo img {
+		top: -7px;
+		left: -50px;
+	}
+/*image slider */
+	.carousel {
+		height: 380px;
+	}
+	.carousel-control{
+		bottom: 45px;
+	}
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+		padding-bottom: 10px;
+	}
+	.profile-box-img {
+		width: 25%;
+		padding: 39px;
+		margin-left: 0px;
+	}
+	.profile-box-body {
+		width: 65%;
+		margin: 0;
+		padding: 10px;
+		padding-top: 3%;
+		line-height: 2;
+		padding-right: 50px;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 25% !important;
+		margin-left: 155px;
+	}
+	.card-body {
+		width: 300px;
+	}
+	div#card1 {
+		margin-right: 10px;
+	}
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 40px;
+		padding: 100px;
+		line-height: 1.5;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 33.3%;
+		margin: 0;
+		float: left;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 92%;
+	}
+	#input1, #input2 {
+		width: 47.1%;
+	}
+/*Footer section*/
+	.footer {
+		padding: 28px;
+	}
+	.footer-box {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.footer-bottom {
+		padding: 15px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 20px;
+		margin-top: 5px;
+	}
+	.col-lg-3 {
+		width: 44%;
+		float: left;
+		height: 270px;
+	}
+	div#col-1, #col-3 {
+		margin-right: 120px;
+	}
+/*background investigation*/
+	#msg {
+		font-size: 28px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 60px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 30px;
+		margin: 0;
+		line-height: 200px;
+	}
+	.OutSource h1 {
+		font-size: 25px;
+		line-height: 195px;
+		margin: 0;
+	}
+	.nav-right {
+		right: 80px;
+		line-height: 200px;
+	}
+	.nav-right p {
+    	font-size: 20px;
+    	color: #6d6d6d;
+    	margin: 0;
+	}
+	.nav-right p a {
+		font-size: 25px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 100px;
+   	 margin-bottom: 30px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 28px;
+		line-height: 200px;
+		margin: 0;
+		padding: 0;
+	}
+/*background investigation end*/
+}
+
+
+/*screen size 1141-1200*/
+@media only screen and (min-width: 1141px) and (max-width: 1200px) {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 25%;
+		margin-left: 15px;
+	}
+	#leaderinfo {
+		width: 70%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 70px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+	}
+	#leader-container {
+		padding: 0 50px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 35px;
+	}
+	p.paragrap, #p1 {
+	   text-align: center !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	nav.navbar-menu {
+		display: flex;
+		z-index: 1;
+		height: 90px;
+	}
+	nav.navbar-menu ul {
+		display: ;
+		padding: 0px;
+		float: right;
+	}
+	ul li a {
+		font-size: 16px;
+	}
+	ul li {
+		padding: 0 14px;
+	}
+	nav.navbar-menu ul li {
+	}
+	#bars {
+		display: none;
+		top: 20px;
+		width: 50px;
+		height: 50px;
+	}
+	.strip {
+		height: 90px;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+	}
+	.construction-logo {
+		height: 0px;
+		width: 25%;
+	}
+	.construction-logo img {
+		top: -10px;
+		left: -52px;
+	}
+/*image slider */
+	.carousel {
+		height: 380px;
+	}
+	.carousel-control{
+		bottom: 45px;
+	}
+
+/*About section*/
+	.profile-box {
+		padding: 0 20px;
+		padding-bottom: 10px;
+	}
+	.profile-box-img {
+		width: 25%;
+		padding: 39px;
+		margin-left: 0px;
+	}
+	.profile-box-body {
+		width: 65%;
+		margin: 0;
+		padding: 10px;
+		padding-top: 3%;
+		line-height: 2;
+		padding-right: 50px;
+	}
+	p.profile-box-text {
+		text-align: justify;
+	}
+	.container-fluid {
+		display: block;
+		padding: 5% 10px;
+	}
+	.container-fluid .card {
+		width: 25% !important;
+		margin-left: 155px;
+	}
+	.card-body {
+		width: 300px;
+	}
+	div#card1 {
+		margin-right: 10px;
+	}
+/*start derams*/
+	.startDream-contend {
+		width: 100%;
+		padding: 0;
+	}
+	.startDream-contend h2 {
+		font-size: 40px;
+		padding: 100px;
+		line-height: 1.5;
+	}
+/*Clientele section*/
+	.ourProjects {
+		padding-bottom: 0;
+	}
+	.projectGallery {
+		display: block;
+	}
+	.gallery {
+		width: 33.3%;
+		margin: 0;
+		float: left;
+	}
+/*Have any query*/
+	.query-heading h1 {
+		margin: 0;
+	}
+	.input-query h2 {
+		margin: 0;
+	}
+	.validation {
+		width: 92%;
+	}
+	#input1, #input2 {
+		width: 47.1%;
+	}
+/*Footer section*/
+	.footer {
+		padding: 28px;
+	}
+	.footer-box {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	.footer-bottom {
+		padding: 15px;
+	}
+	.col-lg-12 p {
+		text-align: center;
+		font-size: 20px;
+		margin-top: 5px;
+	}
+	.col-lg-3 {
+		width: 25%;
+		float: left;
+	}
+	div#col-1, #col-3 {
+	}
+/*background investigation*/
+	#msg {
+		font-size: 28px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 60px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 43px;
+		margin: 0;
+		line-height: 200px;
+	}
+	.OutSource h1 {
+		font-size: 43px;
+		line-height: 195px;
+		margin: 0;
+	}
+	.nav-right {
+		right: 80px;
+		line-height: 200px;
+	}
+	.nav-right p {
+    	font-size: 20px;
+    	color: #6d6d6d;
+    	margin: 0;
+	}
+	.nav-right p a {
+		font-size: 25px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 100px;
+   	 margin-bottom: 30px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 43px;
+		line-height: 200px;
+		margin: 0;
+		padding: 0;
+	}
+/*background investigation end*/
+}
+ 
+@media only screen and (min-width: 1200px) and (max-width: 1366px)  {
+/*LeaderShip Section Responsive*/
+	#leader-container .row {
+		padding: 0 4px;
+	}
+	.col-md-6 {
+		width: 25%;
+		margin-left: 15px;
+	}
+	#leaderinfo {
+		width: 70%;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 70px 0;
+	}
+	.leaderImage {
+	    padding: 30px 0px;
+	}
+	#leader-container {
+		padding: 0 75px;
+	}
+
+/*LeaderShip Section Responsive end*/
+/*Vision-Mission Section Responsive */
+	#mission-vision-container {
+	    padding: 10px 35px;
+	}
+	p.paragrap, #p1 {
+	   text-align: center !important;
+	}
+/*Vision-Mission Section Responsive end*/
+	ul li a {
+		font-size: 20px;
+	}
+	ul {
+		line-height: 95px;
+	}
+/*background investigation*/
+	#msg {
+		font-size: 28px;
+		padding: 0;
+	}
+	.OutSource, .otherServices {
+		padding: 0 60px;
+		height: 200px;
+	}
+	.otherServices h1 {
+		font-size: 43px;
+		margin: 0;
+		line-height: 200px;
+	}
+	.OutSource h1 {
+		font-size: 43px;
+		line-height: 195px;
+		margin: 0;
+	}
+	.nav-right {
+		right: 80px;
+		line-height: 200px;
+	}
+	.nav-right p {
+    	font-size: 20px;
+    	color: #6d6d6d;
+    	margin: 0;
+	}
+	.nav-right p a {
+		font-size: 25px;
+	}
+	.bluecollar-content, .Payroll-content {
+   	 padding: 0 100px;
+   	 margin-bottom: 30px;
+	}
+	.Payroll-content p,
+	.bluecollar-content p {
+		font-size: 16px;
+		margin: 0 0px 0 0px;
+	}
+	#outsource h1 {
+		font-size: 43px;
+		line-height: 200px;
+		margin: 0;
+	}
+/*background investigation end*/
+}
+
+@media only screen and (min-width: 381px) {
+	.construction-logo img {
+		top: -2px;
+	}
+}
+@media only screen and (min-width: 410px) {
+	.construction-logo img {
+		top: -5px;
+	}
+}
+@media only screen and (min-width: 460px) {
+	.construction-logo img {
+		top: -7px;
+	}
+}
+@media only screen and (min-width: 481px) {
+	.construction-logo img {
+		top: 2px;
+		left: -41px;
+	}
+}
+@media only screen and (min-width: 500px) {
+	.construction-logo img {
+		top: -1px;
+		left: -41px;
+	}
+}
+@media only screen and (min-width: 520px) {
+	.construction-logo img {
+		top: -3px;
+		left: -41px;
+	}
+}
+@media only screen and (min-width: 550px) {
+	.construction-logo img {
+		top: -5px;
+	}
+}
+@media only screen and (min-width: 580px) {
+	.construction-logo img {
+		top: -8px;
+		left: -51px;
+	}
+}
+@media only screen and (min-width: 601px) {
+	.construction-logo img {
+		top: 4px;
+		left: -40px;
+	}
+}
+@media only screen and (min-width: 690px) {
+	.construction-logo img {
+		top: -2px;
+		left: -40px;
+	}
+}
+@media only screen and (min-width: 767px) {
+	.construction-logo img {
+		top: -6px;
+		left: -52px;
+	}
+}
+@media only screen and (min-width: 770px) {
+	.construction-logo img {
+		top: 5px;
+		left: -42px;
+	}
+}
+@media only screen and (min-width: 910px) {
+	.construction-logo img {
+		top: -3px;
+		left: -50px;
+	}
+}
+@media only screen and (min-width: 991px) {
+	.construction-logo img {
+		top: -7px;
+		left: -55px;
+	}
+}
+@media only screen and (min-width: 993px) {
+	.construction-logo img {
+		top: -1px;
+		left: -40px;
+	}
+}
+@media only screen and (min-width: 1130px) and (max-width: 1140px) {
+	.construction-logo img {
+		top: -7px;
+		left: -40px;
+	}
+}
+@media only screen and (min-width: 1100px) and (max-width: 1129px) {
+	.construction-logo img {
+		top: -7px;
+		left: -40px;
+	}
+}
+@media only screen and (min-width: 1140px) and (max-width: 1199px) {
+	.construction-logo img {
+		top: -8px;
+		left: -55px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.construction-logo img {
+	    top: -4px;
+   		 left: -48px;
+    	width: 115% !important;
+	}
+}
+@media only screen and (min-width: 1201px) and (max-width: 1220px) {
+	.construction-logo img {
+	    top: 0px;
+   		 left: -40px;
+    	width: 140% !important;
+	}
+}
+@media only screen and (min-width: 1221px) and (max-width: 1299px) {
+	.construction-logo img {
+	    top: -3px;
+   		 left: -40px;
+    	width: 140% !important;
+	}
+}
+@media only screen and (min-width: 1300px) and (max-width: 1365px) {
+	.construction-logo img {
+	    top: -5px;
+   		 left: -40px;
+    	width: 140% !important;
+	}
+}
