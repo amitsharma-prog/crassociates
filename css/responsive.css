@@ -2480,6 +2480,14 @@
 
 /*screen size 993-1024*/
 @media only screen and (min-width: 993px) and (max-width: 1024px) {
+	.flexdirection-list {
+	    width: 100%;
+	    height: 100%;
+	    overflow: hidden;
+	    display: flex !important;
+	    flex-direction: row;
+	    justify-content: space-around;
+	}
 /*LeaderShip Section Responsive*/
 	#leader-container .row {
 		padding: 0 4px;
@@ -2932,6 +2940,14 @@
 
 /*screen size 1104-1140*/
 @media only screen and (min-width: 1104px) and (max-width: 1140px) {
+	.flexdirection-list {
+	    width: 100%;
+	    height: 100%;
+	    overflow: hidden;
+	    display: flex !important;
+	    flex-direction: row;
+	    justify-content: space-around;
+	}
 /*LeaderShip Section Responsive*/
 	#leader-container .row {
 		padding: 0 4px;
@@ -3155,6 +3171,14 @@
 
 /*screen size 1141-1200*/
 @media only screen and (min-width: 1141px) and (max-width: 1200px) {
+	.flexdirection-list {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+	}
 /*LeaderShip Section Responsive*/
 	#leader-container .row {
 		padding: 0 4px;
@@ -3374,6 +3398,14 @@
 }
  
 @media only screen and (min-width: 1200px) and (max-width: 1366px)  {
+	.flexdirection-list {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+}
 /*LeaderShip Section Responsive*/
 	#leader-container .row {
 		padding: 0 4px;
@@ -3584,6 +3616,14 @@
 	}
 }
 @media only screen and (min-width: 993px) {
+	.flexdirection-list {
+	    width: 100%;
+	    height: 100%;
+	    overflow: hidden;
+	    display: flex !important;
+	    flex-direction: row;
+	    justify-content: space-around;
+	}
 	.construction-logo img {
 		top: -1px;
 		left: -40px;
@@ -3596,6 +3636,14 @@
 	}
 }
 @media only screen and (min-width: 1100px) and (max-width: 1129px) {
+	.flexdirection-list {
+	    width: 100%;
+	    height: 100%;
+	    overflow: hidden;
+	    display: flex !important;
+	    flex-direction: row;
+	    justify-content: space-around;
+	}
 	.construction-logo img {
 		top: -7px;
 		left: -40px;
