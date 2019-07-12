@@ -853,6 +853,9 @@ button.btn-submit {
 #leaderinfo {
     width: 75%;
 }
+div#leaderImg {
+    width: 25%;
+}
 #leaderinfo .Payroll-content {
     padding: 100px 0;
     margin: 0;

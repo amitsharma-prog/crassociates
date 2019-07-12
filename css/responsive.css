@@ -5,7 +5,7 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 100%;
+		width: 100% !important;
 	}
 	#leaderinfo {
 		width: 100%;
@@ -283,7 +283,7 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 100%;
+		width: 100% !important;
 	}
 	#leaderinfo {
 		width: 100%;
@@ -560,7 +560,7 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 100%;
+		width: 100% !important;
 	}
 	#leaderinfo {
 		width: 100%;
@@ -829,7 +829,7 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 100%;
+		width: 100% !important;
 	}
 	#leaderinfo {
 		width: 100%;
@@ -1096,7 +1096,7 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 100%;
+		width: 100% !important;
 	}
 	#leaderinfo {
 		width: 100%;
@@ -1367,7 +1367,7 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 100%;
+		width: 100% !important;
 	}
 	#leaderinfo {
 		width: 100%;
@@ -1644,7 +1644,7 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 100%;
+		width: 100% !important;
 	}
 	#leaderinfo {
 		width: 100%;
@@ -1919,10 +1919,10 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 50%;
+		width: 30% !important;
 	}
 	#leaderinfo {
-		width: 70%;
+		width: 70% !important;
 	}
 	#leaderinfo .Payroll-content {
 	    padding: 35px 0;
@@ -2200,10 +2200,10 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 50% !important;
+		width: 30% !important;
 	}
 	#leaderinfo {
-		width: 70%;
+		width: 70% !important;
 	}
 	#leaderinfo .Payroll-content {
 	    padding: 70px 0;
@@ -2718,12 +2718,20 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 25%;
+		width: 25% !important;
 		margin-left: 15px;
+		float: left;
 	}
-	#leaderinfo {
-		width: 70%;
+		div#leaderinfo {
+	    width: 60% !important;
 	}
+	div#leaderImg {
+	    width: 30% !important;
+	}
+	/*#leaderinfo {
+		width: 70% !important;
+		float: right;
+	}*/
 	#leaderinfo .Payroll-content {
 	    padding: 70px 0;
 	}
@@ -2886,7 +2894,7 @@
 		height: 270px;
 	}
 	div#col-1, #col-3 {
-		margin-right: 120px;
+		margin-right: 100px;
 	}
 /*background investigation*/
 	#msg {
@@ -2953,11 +2961,14 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 25%;
+		width: 25% !important;
 		margin-left: 15px;
 	}
-	#leaderinfo {
-		width: 70%;
+	div#leaderinfo {
+		width: 65% !important;
+	}
+	div#leaderImg {
+		width: 30% !important;
 	}
 	#leaderinfo .Payroll-content {
 	    padding: 70px 0;
@@ -3187,8 +3198,11 @@
 		width: 25%;
 		margin-left: 15px;
 	}
-	#leaderinfo {
-		width: 70%;
+	div#leaderinfo {
+		width: 65% !important;
+	}
+	div#leaderImg {
+		width: 30% !important;
 	}
 	#leaderinfo .Payroll-content {
 	    padding: 70px 0;
@@ -3411,11 +3425,20 @@
 		padding: 0 4px;
 	}
 	.col-md-6 {
-		width: 25%;
+		width: 20% !important;
 		margin-left: 15px;
 	}
 	#leaderinfo {
-		width: 70%;
+		width: 70% !important;
+	}
+	div#leaderinfo {
+		width: 65% !important;
+	}
+	div#leaderImg {
+		width: 25% !important;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 70px 0;
 	}
 	#leaderinfo .Payroll-content {
 	    padding: 70px 0;
@@ -3575,8 +3598,34 @@
 		left: -40px;
 	}
 }
+@media only screen and (min-width: 601px) and (max-width: 689px) {
+	.col-md-6 {
+		width: 30% !important;
+		float: left;
+	}
+	#leaderinfo {
+		width: 70% !important;
+	}
+	#leaderinfo p {
+	    font-size: 18px;
+	}
+	.leaderImage {
+		width: 100%;
+	}	
+
+}
 @media only screen and (min-width: 690px) {
 	.col-md-6 {
+		width: 30% !important;
+		float: left;
+	}
+	#leaderinfo {
+		width: 70% !important;
+	}
+	#leaderinfo p {
+	    font-size: 18px;
+	}
+	.leaderImage {
 		width: 100%;
 	}
 	.flexdirection-list {
@@ -3602,11 +3651,17 @@
 		top: 5px;
 		left: -42px;
 	}
+	#leaderinfo .Payroll-content {
+	    padding: 20px 0;
+	}
 }
 @media only screen and (min-width: 910px) {
 	.construction-logo img {
 		top: -3px;
 		left: -50px;
+	}
+	#leaderinfo .Payroll-content {
+	    padding: 90px 0;
 	}
 }
 @media only screen and (min-width: 991px) {
