@@ -3437,6 +3437,10 @@
 	div#leaderImg {
 		width: 25% !important;
 	}
+	#leaderinfo p {
+	    font-size: 25px !important;
+	    margin: 0;
+	}
 	#leaderinfo .Payroll-content {
 	    padding: 70px 0;
 	}
@@ -3736,5 +3740,17 @@
 	    top: -5px;
    		 left: -40px;
     	width: 140% !important;
+	}
+}
+@media only screen and (min-width: 1367px) and (max-width: 1400px) {
+	#leaderinfo p {
+	    font-size: 30px;
+	    margin: 0;
+	}
+}
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+	#leaderinfo p {
+	    font-size: 36px !important;
+	    margin: 0;
 	}
 }
