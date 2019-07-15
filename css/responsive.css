@@ -1928,7 +1928,7 @@
 	    padding: 35px 0;
 	}
 	.leaderImage {
-	    padding: 30px 0px;
+	    padding: 85px 0px;
 	}
 	#leader-container {
 		padding: 0 30px;
@@ -3411,7 +3411,7 @@
 /*background investigation end*/
 }
  
-@media only screen and (min-width: 1200px) and (max-width: 1366px)  {
+@media only screen and (min-width: 1201px) and (max-width: 1366px)  {
 	.flexdirection-list {
     width: 100%;
     height: 100%;
@@ -3448,7 +3448,7 @@
 	    padding: 70px 0;
 	}
 	.leaderImage {
-	    padding: 30px 0px;
+	    padding: 50px 0px !important;
 	}
 	#leader-container {
 		padding: 0 75px;
@@ -3615,6 +3615,7 @@
 	}
 	.leaderImage {
 		width: 100%;
+
 	}	
 
 }
@@ -3631,6 +3632,7 @@
 	}
 	.leaderImage {
 		width: 100%;
+		padding: 45px 0;
 	}
 	.flexdirection-list {
 		display: block;
@@ -3649,6 +3651,9 @@
 		top: -6px;
 		left: -52px;
 	}
+	.leaderImage {
+		padding: 45px 0;
+	}
 }
 @media only screen and (min-width: 770px) {
 	.construction-logo img {
@@ -3666,6 +3671,9 @@
 	}
 	#leaderinfo .Payroll-content {
 	    padding: 90px 0;
+	}
+		.leaderImage {
+		padding: 45px 0;
 	}
 }
 @media only screen and (min-width: 991px) {
@@ -3720,6 +3728,9 @@
    		 left: -48px;
     	width: 115% !important;
 	}
+	.leaderImage {
+		padding: 100px 0;
+	}
 }
 @media only screen and (min-width: 1201px) and (max-width: 1220px) {
 	.construction-logo img {
@@ -3747,10 +3758,16 @@
 	    font-size: 30px;
 	    margin: 0;
 	}
+	.profile-box-img img {
+		border-radius: 120px;
+	}
 }
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
 	#leaderinfo p {
 	    font-size: 36px !important;
 	    margin: 0;
+	}
+	.profile-box-img img {
+		border-radius: 150px;
 	}
 }

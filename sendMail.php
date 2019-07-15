@@ -83,7 +83,7 @@ try {
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Thanks for contact with us';
-    $mail->Body    = '<h1>C.R. Associates</h1><p>This is a confirmation that we have recived your mail and we will contact to you ASAP.</p>';
+    $mail->Body    = '<h1>C.R. Associates</h1><p>This is a confirmation that we have recived your mail and we will contact to you ASAP.</p> <br/> <a href="http://crassociates.in"><img src="http://crassociates.in/images/crassociates_logo.png" alt="crassociates" style="width: 25%;"></a>';
         // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
         $mail->send();
         return true;
