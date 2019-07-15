@@ -1,4 +1,4 @@
-<!DOCTYPE html >
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -192,6 +192,33 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="js/aos.js"></script>
 <script src="js/togglemenu.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#send").click(function(){
+			event.preventDefault();
+			if ($("#name").val() == "" || $("#email").val() == "" || $("#message").val() == "" || $("#subject").val() == "") { 
+
+			} else {
+				var ac  = "name=" + $("#name").val() + "&email=" + $("#email").val() + "&message=" + $("#message").val() + "&subject=" + $("#subject").val(); 
+				// alert(ac);
+				$.ajax({
+					type: "post",
+					url: "sendMail.php",
+					dataType: "text",
+					data: ac,
+					beforeSend: function() {
+						$("#msg").html("");
+						$("#msg").html("Message Sending, Please wait !");
+					},
+					success: function(data){
+						$("#msg").html(data);
+						// alert();
+					},
+				});
+			}
+		});
+	});
+</script>
 <script>
   AOS.init({
   	offset: -100,
