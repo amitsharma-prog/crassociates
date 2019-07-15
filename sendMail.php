@@ -24,7 +24,7 @@ function sendMailToMe() {
     $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom($_POST['email'],$_POST['name']);
+    $mail->setFrom('ankit@ankitvats.galaxeepro.com');
     $mail->addAddress('amitsharma18543@gmail.com', 'Contact us - C.R. Associates');     // Add a recipient
     // $mail->addAddress('crassociates56@gmail.com', 'Contact us - C.R. Associates');     // Add a recipient
     // $mail->addAddress('aayush.jaiswal984@gmail.com');               // Name is optional
@@ -68,7 +68,7 @@ try {
     $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom($_POST['email'],$_POST['name']);
+    $mail->setFrom('ankit@ankitvats.galaxeepro.com');
     $mail->addAddress($_POST['email'], $_POST['name']);     // Add a recipient
     // $mail->addAddress('aayush.jaiswal984@gmail.com');               // Name is optional
     // $mail->addReplyTo('crassociates56@gmail.com', 'Replay');
