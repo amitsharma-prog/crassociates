@@ -25,7 +25,7 @@ function sendMailToMe() {
 
     //Recipients
     $mail->setFrom('_mainaccount@crassociates.in');
-    $mail->addAddress('amitsharma18543@gmail.com', 'Contact us - C.R. Associates');     // Add a recipient
+    $mail->addAddress('crassociates56@gmail.com', 'Contact us - C.R. Associates');     // Add a recipient
     // $mail->addAddress('crassociates56@gmail.com', 'Contact us - C.R. Associates');     // Add a recipient
     // $mail->addAddress('aayush.jaiswal984@gmail.com');               // Name is optional
     $mail->addReplyTo($_POST['email'], $_POST['name']);
@@ -72,7 +72,7 @@ try {
     $mail->addAddress($_POST['email'], $_POST['name']);     // Add a recipient
     // $mail->addAddress('aayush.jaiswal984@gmail.com');               // Name is optional
     // $mail->addReplyTo('crassociates56@gmail.com', 'Replay');
-    $mail->addReplyTo('amitsharma18543@gmail.com', 'Replay');
+    $mail->addReplyTo('crassociates56@gmail.com', 'Replay');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
 
