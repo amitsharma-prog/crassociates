@@ -16,15 +16,15 @@ function sendMailToMe() {
     // $mail->SMTPDebug = 2; 
     $mail = new PHPMailer(true);                          // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'ankitvats.galaxeepro.com';  // Specify main and backup SMTP servers
+    $mail->Host = 'mail.crassociates.in';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'ankit@ankitvats.galaxeepro.com';                 // SMTP username
-    $mail->Password = 'Av123456@2019';                           // SMTP password
-    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 587;                                    // TCP port to connect to
+    $mail->Username = '_mainaccount@crassociates.in';                 // SMTP username
+    $mail->Password = 'u+l7E6Of1GO3b(';                           // SMTP password
+    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 465;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('ankit@ankitvats.galaxeepro.com');
+    $mail->setFrom('_mainaccount@crassociates.in');
     $mail->addAddress('amitsharma18543@gmail.com', 'Contact us - C.R. Associates');     // Add a recipient
     // $mail->addAddress('crassociates56@gmail.com', 'Contact us - C.R. Associates');     // Add a recipient
     // $mail->addAddress('aayush.jaiswal984@gmail.com');               // Name is optional
@@ -45,7 +45,7 @@ function sendMailToMe() {
 <p><b>Email</b> :'.$_POST['email'].'</p>
 <p><b>Message</b> :'.$_POST['message'].'</p>
 <br/><br/>
-<a href="http://crassociates.in"><img src="../images/crassociates_logo.png" alt="crassociates" style="width: 25%;"></a>
+<a href="http://crassociates.in"><img src="http://crassociates.in/images/crassociates_logo.png" alt="crassociates" style="width: 25%;"></a>
 </div>';
         // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
         $mail->send();
@@ -60,15 +60,15 @@ try {
     //Server settings
     // $mail->SMTPDebug = 2;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'ankitvats.galaxeepro.com';  // Specify main and backup SMTP servers
+    $mail->Host = 'mail.crassociates.in';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'ankit@ankitvats.galaxeepro.com';                 // SMTP username
-    $mail->Password = 'Av123456@2019';                           // SMTP password
-    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 587;                                    // TCP port to connect to
+    $mail->Username = '_mainaccount@crassociates.in';                 // SMTP username
+    $mail->Password = 'u+l7E6Of1GO3b(';                           // SMTP password
+    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 465;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('ankit@ankitvats.galaxeepro.com');
+    $mail->setFrom('_mainaccount@crassociates.in');
     $mail->addAddress($_POST['email'], $_POST['name']);     // Add a recipient
     // $mail->addAddress('aayush.jaiswal984@gmail.com');               // Name is optional
     // $mail->addReplyTo('crassociates56@gmail.com', 'Replay');
