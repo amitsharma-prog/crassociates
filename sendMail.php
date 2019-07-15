@@ -16,12 +16,12 @@ function sendMailToMe() {
     // $mail->SMTPDebug = 2; 
     $mail = new PHPMailer(true);                          // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'mail.crassociates.in';  // Specify main and backup SMTP servers
+    $mail->Host = 'ankitvats.galaxeepro.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = '_mainaccount@crassociates.in';                 // SMTP username
-    $mail->Password = 'u+l7E6Of1GO3b(';                           // SMTP password
-    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 465;                                    // TCP port to connect to
+    $mail->Username = 'ankit@ankitvats.galaxeepro.com';                 // SMTP username
+    $mail->Password = 'Av123456@2019';                           // SMTP password
+    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
     $mail->setFrom($_POST['email'],$_POST['name']);
@@ -60,12 +60,12 @@ try {
     //Server settings
     // $mail->SMTPDebug = 2;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'mail.crassociates.in';  // Specify main and backup SMTP servers
+    $mail->Host = 'ankitvats.galaxeepro.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = '_mainaccount@crassociates.in';                 // SMTP username
-    $mail->Password = 'u+l7E6Of1GO3b(';                           // SMTP password
-    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 465;                                    // TCP port to connect to
+    $mail->Username = 'ankit@ankitvats.galaxeepro.com';                 // SMTP username
+    $mail->Password = 'Av123456@2019';                           // SMTP password
+    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
     $mail->setFrom($_POST['email'],$_POST['name']);
