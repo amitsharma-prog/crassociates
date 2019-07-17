@@ -171,6 +171,15 @@
 	.container-fluid .card {
 		width: 68% !important;
 	}
+	div#card2 {
+	    margin-left: 102px;
+	}
+	div#card3 {
+	    margin-left: 111px;
+	}
+	.card-body {
+		width: 180px;
+	}
 /*office serving list start*/
 	#office_list_row {
 		padding: 0 20px;
@@ -438,6 +447,15 @@
 	}
 	.container-fluid .card {
 		width: 68% !important;
+	}
+	div#card2 {
+	    margin-left: 102px;
+	}
+	div#card3 {
+	    margin-left: 111px;
+	}
+	.card-body {
+		width: 210px;
 	}
 /*office serving list start*/
 	#office_list_row {
@@ -713,6 +731,15 @@
 	.container-fluid .card {
 		width: 68% !important;
 	}
+	div#card2 {
+	    margin-left: 102px;
+	}
+	div#card3 {
+	    margin-left: 111px;
+	}
+	.card-body {
+		width: 230px;
+	}
 /*office serving list start*/
 	#office_list_row {
 		padding: 0 20px;
@@ -982,6 +1009,15 @@
 	.container-fluid .card {
 		width: 68% !important;
 	}
+	div#card2 {
+	    margin-left: 102px;
+	}
+	div#card3 {
+	    margin-left: 111px;
+	}
+	.card-body {
+		width: 275px;
+	}
 /*office serving list start*/
 	#office_list_row {
 		padding: 0 20px;
@@ -1246,6 +1282,15 @@
 	}
 	.container-fluid .card {
 		width: 68% !important;
+	}
+	div#card2 {
+	    margin-left: 102px;
+	}
+	div#card3 {
+	    margin-left: 111px;
+	}
+	.card-body {
+		width: 300px;
 	}
 /*office serving list start*/
 	#office_list_row {
@@ -1520,7 +1565,16 @@
 	}
 	.container-fluid .card {
 		width: 50% !important;
-		margin-left: 182px;
+		margin-left: 135px;
+	}
+	div#card2 {
+	    margin-left: 135px;
+	}
+	div#card3 {
+	    margin-left: 143px;
+	}
+	.card-body {
+		width: 300px;
 	}
 /*office serving list start*/
 	#office_list_row {
@@ -1798,7 +1852,13 @@
 	}
 	.container-fluid .card {
 		width: 50% !important;
-		margin-left: 182px;
+		margin-left: 135px;
+	}
+	div#card2 {
+	    margin-left: 135px;
+	}
+	div#card3 {
+	    margin-left: 143px;
 	}
 /*office serving list start*/
 	#office_list_row {
@@ -2071,7 +2131,11 @@
 		width: 222px;
 	}
 	div#card1 {
-		margin-right: 50px;
+		margin-right: 100px;
+		margin-left: 112px;
+	}
+	div#card2 {
+		margin-left: 112px;
 	}
 /*office serving list start*/
 	#office_list_row {
@@ -2347,13 +2411,13 @@
 	}
 	.container-fluid .card {
 		width: 25% !important;
-		margin-left: 155px;
+		margin-left: 120px;
 	}
 	.card-body {
-		width: 300px;
+		width: 225px;
 	}
 	div#card1 {
-		margin-right: 50px;
+		margin-right: 110px;
 	}
 /*office serving list start*/
 	#office_list_row {
@@ -2601,7 +2665,7 @@
 		width: 300px;
 	}
 	div#card1 {
-		margin-right: 10px;
+		margin-right: 90px;
 	}
 /*start derams*/
 	.startDream-contend {
@@ -2835,7 +2899,7 @@
 		width: 300px;
 	}
 	div#card1 {
-		margin-right: 10px;
+		margin-right: 90px;
 	}
 /*start derams*/
 	.startDream-contend {
@@ -3069,7 +3133,8 @@
 		width: 300px;
 	}
 	div#card1 {
-		margin-right: 10px;
+		margin-right: 100px;
+		margin-left: 147px;
 	}
 /*start derams*/
 	.startDream-contend {
@@ -3303,7 +3368,8 @@
 		width: 300px;
 	}
 	div#card1 {
-		margin-right: 10px;
+		margin-right: 100px;
+		margin-left: 147px;
 	}
 /*start derams*/
 	.startDream-contend {
@@ -3604,7 +3670,7 @@
 }
 @media only screen and (min-width: 601px) and (max-width: 689px) {
 	.col-md-6 {
-		width: 30% !important;
+		width: 50% !important;
 		float: left;
 	}
 	#leaderinfo {
@@ -3621,7 +3687,7 @@
 }
 @media only screen and (min-width: 690px) {
 	.col-md-6 {
-		width: 30% !important;
+		width: 50% !important;
 		float: left;
 	}
 	#leaderinfo {
@@ -3670,7 +3736,7 @@
 		left: -50px;
 	}
 	#leaderinfo .Payroll-content {
-	    padding: 90px 0;
+	    padding: 75px 0;
 	}
 		.leaderImage {
 		padding: 45px 0;
@@ -3729,7 +3795,7 @@
     	width: 115% !important;
 	}
 	.leaderImage {
-		padding: 100px 0;
+		padding: 65px 0;
 	}
 }
 @media only screen and (min-width: 1201px) and (max-width: 1220px) {
@@ -3761,6 +3827,7 @@
 	.profile-box-img img {
 		border-radius: 120px;
 	}
+
 }
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
 	#leaderinfo p {
@@ -3769,5 +3836,11 @@
 	}
 	.profile-box-img img {
 		border-radius: 150px;
+	}
+	.profile-box-img {
+		padding-top: 60px;
+	}
+	.profile-box {
+		margin-top: -30px;
 	}
 }

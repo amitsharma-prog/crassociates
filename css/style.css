@@ -260,6 +260,15 @@ i.fa.fa-pencil, .fa.fa-bar-chart, .fa.fa-crosshairs {
     border: 1px solid #ffbc00;
     padding: 24px;
 }
+i.fa.fa-pencil {
+    left: -85px;
+}
+i.fa.fa-crosshairs {
+    left: -85px;
+}
+div#card2 {
+    margin-left: 80px;
+}
 h4.card-title {
     font-size: 20px;
     font-weight: 900;
@@ -268,7 +277,7 @@ h4.card-title {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    display: flex !important;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
