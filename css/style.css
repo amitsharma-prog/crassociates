@@ -808,6 +808,21 @@ button.btn-submit {
     padding: 0 100px;
     position: relative;
 }
+div#outsource-box {
+    width: 24%;
+    float: left; 
+    padding-right: 50px;
+    padding-top: 42px;
+    margin-left: 78px;
+}
+div#outsource-image {
+    width: 100%;
+}
+div#outsource-image img {
+    width: 100%;
+    /*border-radius: 100%;*/
+        box-shadow: 0 0 5px 1px rgba(0,0,0.5);
+}
 .OutSource h1 {
     line-height: 180px;
 }
